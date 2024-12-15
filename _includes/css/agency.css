@@ -291,6 +291,15 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
+header .intro-text .intro-copy {
+    margin-bottom: 25px;
+    color:#222
+    font-family: {{ site.data.template.font.primary }};
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
 header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
@@ -317,6 +326,15 @@ header .intro-text .intro-heading {
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
+        color: black;
+        font-family: {{ site.data.template.font.primary }};
+        font-size: 30px;
+        font-weight: 350;
+        line-height: 45px;
+    }
+
+    header .intro-text .intro-copy {
+        margin-bottom: 50px;
         color: black;
         font-family: {{ site.data.template.font.primary }};
         font-size: 30px;
@@ -492,18 +510,16 @@ section h3.section-subheading {
     z-index: 100;
     position: absolute;
     left: 0;
-    width: 80px;
-    height: 80px;
+    width: 200px;
+    height: 200px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
-    border-radius: 100%;
+    border: 0px solid #f1f1f1;
     text-align: center;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
 }
 
 .timeline>li .timeline-image h4 {
-    margin-top: 12px;
+    margin-top: 30px;
     font-size: 10px;
     line-height: 14px;
 }
