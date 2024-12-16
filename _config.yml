@@ -3,8 +3,8 @@ baseurl: ""
 
 # Site settings
 title: Refactor312
-email: your-email@domain.com
-description: "Write an atsome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: CKimball@refactor312.org
+description: "Website for Refactor312"
 
 
 # Team names, titles and social links
