@@ -277,7 +277,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-   /* background-image: url('/agency-jekyll-theme//img/Refactor_Animation.gif'); */
+   /* background-image: url('/img/Refactor_Animation.gif'); */
     background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: auto;
@@ -402,7 +402,7 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: rgba(254,209,54,.9); /* Fallback when no plugin support */
-    background: rgba(254,209,54, .9);
+    background: rgba(fed136, .9);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -683,7 +683,7 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('/agency-jekyll-theme//img/map-image.png');
+    background-image: url('/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
