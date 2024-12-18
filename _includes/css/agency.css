@@ -176,7 +176,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: Fantasy, sans-serif, bold;
+    font-family: {{ site.data.template.font.primary }};
+    font-weight: bold;
     color: #{{ site.data.template.color.test }};
 }
 
