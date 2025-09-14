@@ -1,0 +1,105 @@
+<!-- _layouts/posts.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <link rel="stylesheet" href="{{ '/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/css/font-awesome/css/font-awesome.min.css' | relative_url }}">
+  {% if site.plugins contains 'jekyll-seo-tag' %}{% seo %}{% endif %}
+</head>
+<body>
+  <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                            <!-- Replace text with logo image -->
+                  <a class="navbar-brand page-scroll" href="#home">
+                      <img src="/img/Logo WEB-PRINT_Icon grey.png" 
+                          alt="Refactor 312" 
+                          style="max-height:100%; height:auto; width:auto; display:inline-block; vertical-align:middle;">
+                  </a>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#home"></a>
+                    </li>
+                  </li>
+                  <li><a href="/about.html">About</a></li>
+                  <li class="active"><a href="/blog.html">Blog</a></li>
+                  <li><a href="/Portfolio.html">Portfolio</a></li>
+                    
+                    <!-- <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+  <main class="container blog-post" style="margin-top:90px;max-width:820px;padding:0 16px">
+    <header class="post-header">
+      <h1 class="post-title">{{ page.title }}</h1>
+      {% if page.subtitle %}
+        <p class="post-subtitle" style="margin:.25rem 0 0;color:#666">{{ page.subtitle }}</p>
+      {% endif %}
+      <p class="post-meta" style="color:#777;margin:.5rem 0 1rem">
+        {{ page.date | date: "%b %-d, %Y" }}
+        {% if page.category %} • {{ page.category }}{% endif %}
+      </p>
+    </header>
+
+    {% if page.img %}
+      <figure class="post-hero" style="margin:20px 0">
+        <img src="{{ page.img | relative_url }}"
+             alt="{{ page.alt | default: page.title }}"
+             style="max-width:100%;height:auto">
+        {% if page.alt %}
+          <figcaption class="text-muted" style="font-size:.9rem">{{ page.alt }}</figcaption>
+        {% endif %}
+      </figure>
+    {% endif %}
+
+    <section class="post-body">
+      {{ content }}
+    </section>
+
+    <footer class="post-footer" style="margin-top:40px">
+      {% if page.project-date %}
+        <p style="color:#777;font-size:.95rem">Project date: {{ page.project-date }}</p>
+      {% endif %}
+
+      <hr style="margin:24px 0;border:0;height:1px;background:#eee">
+
+      <nav class="post-nav" style="display:flex;justify-content:space-between;gap:12px">
+        <div class="prev">
+          {% if page.previous %}
+            &larr; <a href="{{ page.previous.url | relative_url }}">{{ page.previous.title }}</a>
+          {% endif %}
+        </div>
+        <div class="next" style="margin-left:auto;text-align:right">
+          {% if page.next %}
+            <a href="{{ page.next.url | relative_url }}">{{ page.next.title }}</a> &rarr;
+          {% endif %}
+        </div>
+      </nav>
+
+      <p style="margin-top:20px">
+        <a href="{{ '/blog/' | relative_url }}">&larr; Back to Blog</a>
+      </p>
+    </footer>
+  </main>
+
+  {% include footer.html %}
+</body>
+</html>
