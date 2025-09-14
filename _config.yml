@@ -52,3 +52,16 @@ people:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# optional, but nice
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# posts live under /blog/yyyy/mm/dd/title/
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
+
+excerpt_separator: "<!--more-->"
