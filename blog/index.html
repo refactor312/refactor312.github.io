@@ -9,7 +9,7 @@ title: Blog
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Refactor 312 — Blog</title>
-  <meta name="viewport" content="width=1024">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -17,43 +17,56 @@ title: Blog
   <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet">
 </head>
+
 <body id="Blog" class="index">
 
-  <!-- Navigation (same as index, but links go back to sections on /) -->
+    <!-- Navigation -->
   <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/#home">
-          <img src="/img/Logo WEB-PRINT_Icon grey.png" alt="Refactor 312">
-        </a>
+      <div class="container">
+          <div class="navbar-header page-scroll">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+                          <!-- Replace text with logo image -->
+                  <a class="navbar-brand page-scroll" href="/#home">
+                      <img src="/img/Logo WEB-PRINT_Icon grey.png" 
+                          alt="Refactor 312">
+                  </a>
+          </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-right">
+                  <li class="hidden">
+                      <a href="#home"></a>
+                  </li>
+                </li>
+                <li><a href="/about.html">About</a></li>
+                <li class="active"><a href="/blog">Blog</a></li>
+                <li><a href="/portfolio.html">Portfolio</a></li>
+                  
+              </ul>
+          </div>
       </div>
-      <div class="collapse navbar-collapse" id="main-nav">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/about.html">About</a></li>
-          <li class="active"><a href="/blog">Blog</a></li>
-          <li><a href="/portfolio.html">Portfolio</a></li>
-          <!-- New link can highlight current page -->
-          
-        </ul>
-      </div>
-    </div>
   </nav>
+
 
   <!-- Page header -->
 
   <!-- Your page-specific content -->
 
   <section id="blog" class="container">
-  <h1 class="page-title">Blog</h1>
+  <!-- <h1 class="page-title">BLOG</h1> -->
   <div class="blog-list">
     {% for post in site.posts %}
       <article class="post-item">
-        <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <h2 class="post-title"><a href="{{ post.url | relative_url }}">{{ post.title }} </a></h2>
+        {% if post.author %}
+        <p class="post-meta"> by {{post.author}}</p>
+        {% endif %}
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }} </p>
         {% if post.excerpt %}
           <p class="post-excerpt">{{ post.excerpt | strip_html | strip_newlines }}</p>
         {% endif %}

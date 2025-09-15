@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Refactor 312 — Portfolio</title>
-  <meta name="viewport" content="width=1024">
+  <title>Portfolio | Refactor 312</title>
+  <!-- <meta name="viewport" content="width=1024"> -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="/style.css">
   <link rel="stylesheet" href="/css/font-awesome/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
@@ -15,27 +16,34 @@
 <body id="Portfolio" class="index">
 
   <!-- Navigation (same as index, but links go back to sections on /) -->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <div class="navbar-header page-scroll">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="/#home">
-          <img src="/img/Logo WEB-PRINT_Icon grey.png" alt="Refactor 312">
-        </a>
-      </div>
-      <div class="collapse navbar-collapse" id="main-nav">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/blog/">Blog</a></li>
-          <!-- New link can highlight current page -->
-          <li class="active"><a href="/Portfolio.html">Portfolio</a></li>
-        </ul>
-      </div>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header page-scroll">
+      <button type="button"
+              class="navbar-toggle"
+              data-toggle="collapse"
+              data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+      </button>
+
+      <!-- Match index: add page-scroll and same logo structure -->
+      <a class="navbar-brand page-scroll" href="/#home">
+        <img src="/img/Logo WEB-PRINT_Icon grey.png" alt="Refactor 312">
+      </a>
     </div>
-  </nav>
+
+    <!-- Match index: same collapse ID -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/blog/">Blog</a></li>
+        <li class="active"><a href="/Portfolio.html">Portfolio</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
   <!-- Page header -->
   <header>
