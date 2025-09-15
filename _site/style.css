@@ -627,18 +627,21 @@ header .intro-heading {
   }
 }
 
-.blog-post {
+/* Desktop defaults for blog post container */
+.container.blog-post {
   margin-top: 90px;
   max-width: 1100px;
-  padding: 10px 10px; /* mobile default */
+  padding: 200px 200px;
+  color: #282828;
 }
 
-
-@media (min-width: 768px) {
-  .blog-post {
-    padding: 100px 150px;
+/* Mobile override */
+@media (max-width: 800px) {
+  .container.blog-post {
+    padding: 20px 20px;        /* no padding on phones */
   }
 }
+
 
 /* Keep your other inline styles, but moved here */
 .post-subtitle {
