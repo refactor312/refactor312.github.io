@@ -64,15 +64,13 @@
   </nav>
 
 
-  <main class="container blog-post" style="margin-top:90px;max-width:1100px;px;padding: 100px 10px;color:#282828">
+  <main class="container blog-post">
     <header class="post-header">
       <h2 class="post-title" style="color:#38bfb7">{{ page.title }} </h2>
       {% if page.subtitle %}
         <h5 class="post-subtitle">{{ page.subtitle }}</h5>
       {% endif %}
-      {% if page.author %}
       <p class="post-meta"> by {{ page.author}} </p>
-      {% endif %}
       <p class="post-meta">
         {{ page.date | date: "%b %-d, %Y" }}
         {% if page.category %} • {{ page.category }}{% endif %}

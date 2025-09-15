@@ -1,0 +1,32 @@
+---
+title: Hello world!
+subtitle: 
+author: Candice Stauffer
+date: 2025-09-14
+layout: posts
+excerpt: Welcome to the Refactor 312 blog! We're kicking things off with some exciting updates (read more).
+
+---
+**Welcome to the Refactor 312 blog! We're kicking things off with some exciting updates.** <br><br>
+
+#### A Fresh Look  
+We’ve rebranded with a new logo, thanks to the talented team at [Box 6 Marketing](https://www.box6marketing.com/about-us/). Along with the new logo, we’ve given our website a refresh to better share who we are and what we do. 
+ 
+<br>
+#### 501(c)(3) Status  
+
+This summer, we submitted our application to the IRS for 501(c)(3) status and finalized our bylaws. Soon, we’ll also be sharing key documents publicly, including meeting minutes, conflict of interest statements, and budget information.  
+
+Achieving 501(c)(3) status will open the door for fundraising, community outreach, and expanding our work to support nonprofits with data and technology.  
+
+<br>
+
+#### What’s Ahead  
+This November 2025, we’ll be hosting a networking event for local nonprofits in Chicago. It’s a chance to connect, learn about the incredible work happening across the city, and explore ways we can support each other.  
+
+<br>
+
+#### What to Expect Here  
+On this blog, we’ll share updates about Refactor 312, our events, and our plans. You’ll also find posts on data science, technology, AI, and opinion pieces about the role of tech in community impact.  
+
+Thanks for stopping by—this is just the beginning.  

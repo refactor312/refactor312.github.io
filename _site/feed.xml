@@ -5,28 +5,39 @@
     <description>Website for Refactor312</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Sep 2025 22:00:03 -0500</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2025 22:00:03 -0500</lastBuildDate>
+    <pubDate>Sun, 14 Sep 2025 22:33:58 -0500</pubDate>
+    <lastBuildDate>Sun, 14 Sep 2025 22:33:58 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
     
       <item>
-        <title>Title 2</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse. Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.&lt;/p&gt;
+        <title>Hello world!</title>
+        <description>&lt;p&gt;&lt;strong&gt;Welcome to the Refactor 312 blog! We’re kicking things off with some exciting updates.&lt;/strong&gt; &lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;a-fresh-look&quot;&gt;A Fresh Look&lt;/h4&gt;
+&lt;p&gt;We’ve rebranded with a new logo, thanks to the talented team at &lt;a href=&quot;https://www.box6marketing.com/about-us/&quot;&gt;Box 6 Marketing&lt;/a&gt;. Along with the new logo, we’ve given our website a refresh to better share who we are and what we do.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h4 id=&quot;501c3-status&quot;&gt;501(c)(3) Status&lt;/h4&gt;
+
+&lt;p&gt;This summer, we submitted our application to the IRS for 501(c)(3) status and finalized our bylaws. Soon, we’ll also be sharing key documents publicly, including meeting minutes, conflict of interest statements, and budget information.&lt;/p&gt;
+
+&lt;p&gt;Achieving 501(c)(3) status will open the door for fundraising, community outreach, and expanding our work to support nonprofits with data and technology.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;whats-ahead&quot;&gt;What’s Ahead&lt;/h4&gt;
+&lt;p&gt;This November 2025, we’ll be hosting a networking event for local nonprofits in Chicago. It’s a chance to connect, learn about the incredible work happening across the city, and explore ways we can support each other.&lt;/p&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;what-to-expect-here&quot;&gt;What to Expect Here&lt;/h4&gt;
+&lt;p&gt;On this blog, we’ll share updates about Refactor 312, our events, and our plans. You’ll also find posts on data science, technology, AI, and opinion pieces about the role of tech in community impact.&lt;/p&gt;
+
+&lt;p&gt;Thanks for stopping by—this is just the beginning.&lt;/p&gt;
 </description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2014/07/18/project-2-copy/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2014/07/18/project-2-copy/</guid>
-        
-        
-      </item>
-    
-      <item>
-        <title>Title</title>
-        <description>&lt;p&gt;Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse. Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.&lt;/p&gt;
-</description>
-        <pubDate>Fri, 18 Jul 2014 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2014/07/18/project-1/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2014/07/18/project-1/</guid>
+        <pubDate>Sun, 14 Sep 2025 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/2025/09/14/helloworld/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2025/09/14/helloworld/</guid>
         
         
       </item>
