@@ -5,9 +5,54 @@
     <description>Website for Refactor312</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 14 Sep 2025 22:33:58 -0500</pubDate>
-    <lastBuildDate>Sun, 14 Sep 2025 22:33:58 -0500</lastBuildDate>
+    <pubDate>Thu, 02 Oct 2025 00:36:33 -0500</pubDate>
+    <lastBuildDate>Thu, 02 Oct 2025 00:36:33 -0500</lastBuildDate>
     <generator>Jekyll v3.10.0</generator>
+    
+      <item>
+        <title>Want Change? Start Small.</title>
+        <description>&lt;p&gt;I grew up in the 2000s, when the internet was just starting to feel mainstream. I spent hours teaching myself HTML and CSS to customize my Myspace page, built bootstrapped blogs, and uploaded cringy sketches to YouTube. Back then, technology felt exciting, full of possibility, and rooted in community rather than dominated by commercial corporations. But over time, those playful spaces of the early internet shifted into something unrecognizable. Algorithms began prioritizing outrage over truth, and more recently, generative AI has sparked fears of exploitation, misinformation, and trend-chasing products with little real value. The problem isn’t that technology or AI are inherently bad—I, among many, would argue it has been a net benefit to society — but instead, tech has followed the same pattern of exploitation tied to every major resource in history.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Refactor 312&lt;/em&gt;&lt;/strong&gt; was founded to resist the cycle of building technology that serves corporations more than people. For me, this comes down to a few ideas that keep showing up in the way I think about building technology: starting small and focusing on quality, putting people first, and doing good.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;small-scale-high-quality&quot;&gt;Small-Scale, High Quality&lt;/h4&gt;
+&lt;p&gt;There’s a lot of big problems going on today, and many smart, ambitious, good-hearted people are working hard to tackle all of them. These organizations are important and necessary, but with everyone racing to come up with the next “big thing”, maybe we’re starting to lose sight of the big picture. I think there’s a need for groups that take a different approach, providing tech solutions on a smaller, more personal scale. 
+A solution for everything helps everyone a &lt;em&gt;little&lt;/em&gt;, but with more time and without the pressure of profit, &lt;strong&gt;&lt;em&gt;Refactor 312&lt;/em&gt;&lt;/strong&gt; can help targeted initiatives and individuals &lt;em&gt;a lot&lt;/em&gt;. There’s no shortcut for high-quality work that is custom-tailored to the exact problem it’s meant to solve.&lt;/p&gt;
+
+&lt;p&gt;For example, imagine a massive analytics service like Google Analytics. It works for almost anyone in almost any industry. It provides automated charts, and generic metrics that give a high-level overview. Everyone gets something useful, but it’s often surface-level. You might know what is happening, but not why.&lt;/p&gt;
+
+&lt;p&gt;Now, compare that to a small team building a custom model for your small nonprofit. You probably don’t need 100 generic metrics, but rather you need one clear model that clearly answers the question you’re asking from your data. It’s not flashy, it doesn’t scale to every industry, and it doesn’t elicit maximum profit for the developer, but it’s precise and acurate. It solves the exact problem you face, in your context, with your data with the help of people who have taken the time to truly get to know your organization.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h4 id=&quot;people-first&quot;&gt;People First&lt;/h4&gt;
+&lt;p&gt;Too many tech solutions focus on flash over substance, pushing gimmicks instead of addressing what people actually need. Having been on the client side myself, I have seen that this happens for two main reasons. First, because consultants don’t listen closely enough to their clients, and second, because they’re motivated to sell the next big, shiny product whether it’s truly necessary or not.&lt;/p&gt;
+
+&lt;p&gt;Right now, nearly every organization is rushing to add “AI” to their offerings, which to many people, means a ChatGPT-like chatbot. But not every organization actually needs or should have a chatbot. For many, an unnecessary AI product only drives up costs, increases environmental impact, and risks credibility if it produces incorrect information or hallucinations… as it still often does.&lt;/p&gt;
+
+&lt;p&gt;We’ll carefully listen to what your organization truly needs and because people — not profit — is our main driver, we’ll never try to push something that doesn’t make sense. 
+&lt;strong&gt;Do you really need a chatbot to search your data, or do you simply need your data structured in an environment that makes it easy to query? 99% of the time, it’s the latter.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h4 id=&quot;do-good&quot;&gt;Do Good&lt;/h4&gt;
+&lt;p&gt;We choose our work intentionally and focus on the people and organizations that often get overlooked, like ambitious individuals trying to gain experience in an oversaturated tech job market and small nonprofits that are making a direct impact for people, animals, and/or the planet.&lt;/p&gt;
+
+&lt;p&gt;We commit to protecting sensitive data while staying transparent about our methods, and using open source whenever possible so our work can reach more people. This transparency extends beyond our code: everything from organizational documents to financial records will be open to the public.&lt;/p&gt;
+
+&lt;p&gt;“Doing good” isn’t always simple. Ethical questions rarely come in black and white. That’s why we approach our work with openness, creating space for honest conversations about ethics, privacy, and security when appropriate. Above all else, we keep both clients and volunteers informed, making sure no one is left out of the loop.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Technology can still carry the spirit it once had in the early days. &lt;strong&gt;&lt;em&gt;Refactor 312&lt;/em&gt;&lt;/strong&gt; exists to bring that spirit back with careful, community-centered work that solves real problems with care, intention, and love for our neighbors and craft.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 01 Oct 2025 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/blog/2025/10/01/CS/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2025/10/01/CS/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Hello world!</title>
@@ -36,8 +81,8 @@
 &lt;p&gt;Thanks for stopping by—this is just the beginning.&lt;/p&gt;
 </description>
         <pubDate>Sun, 14 Sep 2025 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/blog/2025/09/14/helloworld/</link>
-        <guid isPermaLink="true">http://localhost:4000/blog/2025/09/14/helloworld/</guid>
+        <link>http://localhost:4000/blog/2025/09/14/CS/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2025/09/14/CS/</guid>
         
         
       </item>

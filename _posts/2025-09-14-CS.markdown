@@ -4,7 +4,7 @@ subtitle:
 author: Candice Stauffer
 date: 2025-09-14
 layout: posts
-excerpt: Welcome to the Refactor 312 blog! We're kicking things off with some exciting updates (read more).
+excerpt: Welcome to the Refactor 312 blog! We're kicking things off with some exciting updates.
 
 ---
 **Welcome to the Refactor 312 blog! We're kicking things off with some exciting updates.** <br><br>
